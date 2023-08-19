@@ -1,0 +1,31 @@
+/* DogList.css */
+.dog-list {
+    text-align: center;
+    margin: 20px;
+}
+
+.dog-list h1 {
+    margin-bottom: 20px;
+}
+
+.dog-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.dog-list li {
+    display: inline-block;
+    margin: 10px;
+}
+
+.dog-list img {
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.dog-list img:hover {
+    transform: scale(1.2);
+}
